@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 export const HeroItem = ({ id,superhero,characters,first_appearance }) => {
-  const imageUrl = `/assets/heroes/${id}.jpg`;
+  const imageUrl = `./assets/heroes/${id}.jpg`;
   //console.log(imageUrl);
   return (
     <div className="col animate__animated animate__fadeIn mb-3">

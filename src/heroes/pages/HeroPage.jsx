@@ -21,7 +21,7 @@ export const HeroPage = () => {
     <div className="row mt-4">
         <div className="col-md-4">
             <img 
-              src={`./assets/heroes/${id}.jpg`}
+              src={`../assets/heroes/${id}.jpg`}
               alt={superhero}
               className="img-fluid rounded animate__animated animate__backInLeft"
             />

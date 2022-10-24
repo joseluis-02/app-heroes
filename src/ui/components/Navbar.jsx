@@ -50,6 +50,7 @@ export const Navbar = () => {
                     <button 
                         className="btn btn-outline-success"
                         onClick={ onLogout }
+                        aria-label="btnLogout"
                     >
                         cerrar sesión
                     </button>

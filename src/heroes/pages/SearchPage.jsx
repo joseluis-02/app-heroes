@@ -28,7 +28,7 @@ export const SearchPage = () => {
       <div className="row mt-3">
         <div className="col-sm-5">
 
-          <form onSubmit={ onSubmitFormSearch }>
+          <form aria-label="form" onSubmit={ onSubmitFormSearch }>
             <input 
               type="search"
               className="form-control"
@@ -36,6 +36,7 @@ export const SearchPage = () => {
               name="searchText"
               value={searchText}
               onChange={ onInputChange }
+              aria-label="inputSearch"
              />
              <button
               className="btn btn-outline-info mt-2"
